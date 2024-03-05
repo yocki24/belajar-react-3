@@ -1,7 +1,9 @@
 import React from "react";
 import ProductCard from "./ProductCard";
-import { Products } from "../data/Product";
+// import { Products } from "../data/Product";
 const ProductList = ({ products, onDeleteProduct, onEditProduct }) => {
+  console.log("Test Get Data");
+  console.log(products);
   return (
     <>
       <div className="cards">
